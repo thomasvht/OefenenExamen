@@ -1,0 +1,79 @@
+/**
+* @Author: thomasvanhoutte
+* @Date:   2017-01-08T12:16:53+01:00
+* @Last modified by:   thomasvanhoutte
+* @Last modified time: 2017-01-09T09:37:50+01:00
+*/
+
+
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+.tellingen{
+  float:left;
+  width: 20%;
+}
+
+.waarnemingen{
+  float: left;
+  width: 80%;
+}
+
+.waarneming{
+  width: 11%;
+  background-color: #317ec6;
+  color: white;
+  display: inline-block;
+  margin: 7px;
+}
+
+.datum{
+  float: left;
+  width: 45%;
+  text-align: right;
+}
+
+.id{
+  float: left;
+  visibility: collapse;
+}
+
+.waarnemer{
+  float: left;
+  width: 45%;
+  text-align: left;
+  padding-left: 7px;
+}
+
+.vogelsoort{
+  text-align: center;
+  font-size: 12px;
+}
+
+.aantal{
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+table{
+  width: 100%;
+}
+
+tr{
+  height: 50px;
+}
+
+td{
+  margin-top: 15px;
+}
+
+tr.t0{
+  color: white;
+  background-color: #317ec6;
+  width: 100%;
+}
